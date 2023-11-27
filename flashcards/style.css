@@ -1,0 +1,208 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-image: url("Flashcards\ \(3\).png");
+}
+
+.komut {
+  background-color: #4c556c;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #3f4461;
+  
+}
+
+#flash1{
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  font-size: 47px;
+  cursor: pointer;
+  text-shadow: 2px 2px #00000075;
+  margin-left: -20px;
+
+
+}
+
+#profil{
+  margin-top: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.komut h1 {
+  margin: 0;
+}
+
+.ustkom{
+  margin-left: 130px;
+  display: flex;
+  margin-top: -10px;
+}
+
+.but {
+  padding: 10px 10px;
+  background-color: #fad02c;
+  color: #ffffff;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 32px;
+  text-shadow: 2px 2px #0000001b;
+
+  margin-bottom: 32px;
+  font-weight: bolder;
+  border: 1px solid #fad02c;
+  border-radius: 12px;
+}
+
+.but:hover{
+  background-color: #4c5270;
+  transition: .1s;
+}
+
+.yenikart {
+  list-style: none;
+  padding: 0;
+}
+
+.yenikart dt {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px;
+  margin:  0;
+  border-radius: 5px;
+}
+
+.kartolustur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Added to center vertically */
+  position: absolute;
+  top: 60%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #d0c9a5a3;
+  border-radius: 30px;
+  background-color: #fffae583;
+}
+
+textarea {
+  width: 70%;
+  margin: 20px 0;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+}
+
+#subkart {
+  padding: 10px 20px;
+  background-color:#798cdd;
+  color: #ffffff;
+  border: 2px solid #798cdd;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+button.reset {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.reset:hover {
+  background-color: #d32f2f;
+}
+
+.kartPairContainer {
+  border: 1px solid #798cdd;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+  background-color:#fef5cc61;/* Use RGBA to set the background color with alpha (transparency) */
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 130px;
+}
+
+.kartPairContainer p {
+  color: white; /* Set the text color to white or any color that provides good contrast */
+  opacity: 1; /* Set the opacity of the text to 1 (fully opaque) */
+}
+
+
+.kartPairContainer:hover{
+  background-color: #798bdd5f;
+}
+
+.kartPairContainer dt {
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #798cdd;
+  background-color: #798cdd;
+  color: white;
+}
+
+.kartPairContainer dd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #3f4461;
+  text-align: center;
+  margin-inline-start: 0;
+}
+
+
+.ResetButtons{
+  margin-top: 235px;
+  margin-left: 150px;
+  padding: 3px 5px;
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 7px;
+}
+
+.ResetButtons:hover {
+  transition: .3s;
+  background-color: rgb(158, 16, 16);
+
+}
+
+
+
+
+.hide{
+  display: none;
+}

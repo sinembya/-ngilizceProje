@@ -1,0 +1,162 @@
+.ust{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    margin: -10px;
+    background-color: rgb(42, 41, 36);
+
+
+}
+
+
+
+#ustlist{
+    display: flex;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#menu{
+    padding-right: 10px;
+
+
+}
+
+#baslik{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+#gok{
+    margin-top: 10px;
+    margin-left: -50px;
+    margin-right: 70px;
+}
+
+
+
+#zemin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: -50px;
+    margin-right: 70px;
+    margin-top: 60px;
+
+}
+
+#hakkyazi{
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+
+
+body{
+    background-color: gray;
+}
+
+
+.alt{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.solalt{
+    display: flex;
+    padding-left: 420px;
+    padding-right: 420px;
+    padding-top: 250px;
+    padding-bottom: 261px;
+    background-color: rgb(122, 176, 199);
+    background-image: url('arkaplan/gokyuzu.png')
+
+
+ 
+
+}
+
+
+
+.yazikutu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    text-align: center;
+    padding-bottom: 50%;
+    
+
+}
+
+.sagalt{
+    background: rgb(60, 60, 60);
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: -10px;
+    padding-top: 250px;
+
+}
+
+.giris-form{
+    background-color: rgb(83, 83, 83);
+    align-items: center;
+    border: 15px solid  rgb(83, 83, 83) ;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#girisbut{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgb(69, 69, 69);
+    
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 7px;
+}
+
+#girisbut:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+#loginhead{
+    padding-left: 40px;
+}
+
+.sagustbut{
+    background: none;
+    color: white;
+    border: 1px solid  rgb(42, 41, 36) ;
+    border-radius: 2px;
+    
+}
+
+.sagustbut:hover{
+    cursor: pointer;
+}
